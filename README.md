@@ -43,14 +43,14 @@ In case all splitter entries were veriﬁed, a payment request is sent to the us
 </p>
 If a user decides to sign up with Split The Tab in order to use the payment
 features, his or her information and payment history are displayed in the
-Profile View.<br/>
+Profile View.<br/><br/>
 1. On the top of the page, the username and email address are displayed.
 The username is fixed, and is computed by extracting and capitalizing
-the part of the email address before the “@“ sign.<br/>
+the part of the email address before the “@“ sign.<br/><br/>
 2. A list of transactions is shown in the middle. The list can display three
 kinds of lists: a list of past transactions, or history, with both ingoing and outgoing payments; a list of pending transaction owed to the current
 user, which are incoming, and a list of pending transactions owed by
-the user to other users.<br/>
+the user to other users.<br/><br/>
 3. The tabs at the bottom of the screen allow the user to switch between
 the three lists mentioned in section 2). 
 
@@ -71,9 +71,9 @@ The second option is when a user needs to sign up, this is a little more elabora
     <img src="https://i.imgur.com/bJCDQDIm.png">
 </p>
 If the database handler is updated with a transaction that is partly owed by the current user of the app, a popup is shown prompting the user to pay that amount. The popup contains the following information:
-<br/>
+<br/><br/>
 1. A receipt-style alert containing the date, the email of the person that the money is owed to, and the amount.
-<br/>
+<br/><br/>
 2. A button to deny or accept paying for that transaction.
-<br/>
+<br/><br/>
 There is no option to pay part of the amount owed. If the user chooses to authorize the transaction, money is taken from the card associated with his or her account on Stripe, and given to the speciﬁed receiver. If the user decides not to pay, the app will remind the user periodically of that debt.
