@@ -5,7 +5,9 @@ the meal when one person is paying. The user can use Split the Tab both as a sim
 receive payments from other users. This is achieved by allowing a user to sign up with Split the Tab, and through
 the app sign up with Stripe, which provides APIs to handle peer to peer payments. 
 
-![devices](https://i.imgur.com/BbDDg2u.png)
+<p align="center">
+   <img src="https://i.imgur.com/BbDDg2u.png">
+</p>
 
 # Application components:
 </br>
