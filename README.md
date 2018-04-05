@@ -10,8 +10,6 @@ the app sign up with Stripe, which provides APIs to handle peer to peer payments
 # Application components:
 </br>
 
-------
-
 **SPLIT VIEW** <br/>
 <p align="center">
     <img src="https://i.imgur.com/DjAI1f8m.png">
