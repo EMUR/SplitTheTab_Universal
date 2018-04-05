@@ -1,5 +1,6 @@
 
 # Split The Tab:
+`In Collaboration with `[Andy Vitek](https://github.com/apvitek)<br/><br/>
 Split the Tab is an iOS & Android mobile application that allows a group of people who dine together to split the cost of
 the meal when one person is paying. The user can use Split the Tab both as a simple calculator, or to request and
 receive payments from other users. This is achieved by allowing a user to sign up with Split the Tab, and through
