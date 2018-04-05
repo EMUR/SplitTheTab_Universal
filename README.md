@@ -1,6 +1,8 @@
 
 # Split The Tab:
-`In Collaboration with `[Andy Vitek](https://github.com/apvitek)<br/><br/>
+
+### In Collaboration with [Andy Vitek](https://github.com/apvitek)<br/><br/>
+  
 Split the Tab is an iOS & Android mobile application that allows a group of people who dine together to split the cost of
 the meal when one person is paying. The user can use Split the Tab both as a simple calculator, or to request and
 receive payments from other users. This is achieved by allowing a user to sign up with Split the Tab, and through
@@ -37,6 +39,7 @@ This view is presented upon launching the application, which serves as the main 
 
 4. When a valid email is entered into the “splitter lookup view”, we assign the entered splitter to the associated splitter entry, and we mark the entry to be “veriﬁed” This is the Payment request button, which is where the user send payment requests to the splitters he added in the list above. If this button is pressed while having one or more unveriﬁed splitter entries, the user will receive an error message and will be asked to verify all splitter entries.
 In case all splitter entries were veriﬁed, a payment request is sent to the user and to the Stripe database.
+
 ------
 • **PROFILE VIEW**  <br/>
 <p align="center">
