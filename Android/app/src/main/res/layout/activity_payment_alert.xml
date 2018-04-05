@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="andy_eyad_ucsc.splitthetab.presenter.PaymentAlertActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="385dp"
+        android:layout_height="45dp"
+        android:text="You have a new payment request"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="366dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Payment Invoice"
+            android:textColor="@color/color_text_unselected_primary_default"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="------------------------------------"
+            android:textAlignment="center"
+            android:textColor="@color/clear"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Date: 12/05/2017"
+            android:textColor="@color/color_text_unselected_primary_default"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/fromText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="From: aaaa@aaaa.aaa"
+            android:textColor="@color/color_text_unselected_primary_default"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="------------------------------------"
+            android:textAlignment="center"
+            android:textColor="@color/clear"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="$55"
+            android:textAlignment="textEnd"
+            android:textColor="@color/payment"
+            android:textSize="30sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="368dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/dismissButton"
+            android:layout_width="84dip"
+            android:layout_height="84dip"
+            android:src="@drawable/no"
+            app:cb_color="@color/colorAccent"
+            app:cb_pressedRingWidth="8dip" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/payButton"
+            android:layout_width="84dip"
+            android:layout_height="84dip"
+            android:src="@drawable/check"
+            app:cb_color="#99CC00"
+            app:cb_pressedRingWidth="8dip" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

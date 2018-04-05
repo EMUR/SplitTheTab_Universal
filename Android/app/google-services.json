@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894878548262",
+    "firebase_url": "https://splitthetab-db096.firebaseio.com",
+    "project_id": "splitthetab-db096",
+    "storage_bucket": "splitthetab-db096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894878548262:android:780e2eb2de007094",
+        "android_client_info": {
+          "package_name": "andy_eyad_ucsc.splitthetab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894878548262-6cpsco7cv12m6uvav8j31jl7hudqtpnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "andy_eyad_ucsc.splitthetab",
+            "certificate_hash": "7489bc1248dbaf7fa8d4599a4c7b1f73f8bce10b"
+          }
+        },
+        {
+          "client_id": "894878548262-itqnkh8fiqm3cdbaiag1mos6dpdan1gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDseDFi9qntVrLGECAzJFXUwtWxKF7PnkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894878548262-itqnkh8fiqm3cdbaiag1mos6dpdan1gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

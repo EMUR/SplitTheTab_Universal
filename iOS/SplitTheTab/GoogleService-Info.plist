@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>894878548262-h74tetbno7p2uha2m933it00qqorga3e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.894878548262-h74tetbno7p2uha2m933it00qqorga3e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7UinJZtIJx9bWYmKzGsp8Yz37H8s3X_E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>894878548262</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Eyad.SplitTheTab</string>
+	<key>PROJECT_ID</key>
+	<string>splitthetab-db096</string>
+	<key>STORAGE_BUCKET</key>
+	<string>splitthetab-db096.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:894878548262:ios:2531db8bc880b57e</string>
+	<key>DATABASE_URL</key>
+	<string>https://splitthetab-db096.firebaseio.com</string>
+</dict>
+</plist>

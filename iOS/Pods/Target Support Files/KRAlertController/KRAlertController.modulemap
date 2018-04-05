@@ -1,0 +1,6 @@
+framework module KRAlertController {
+  umbrella header "KRAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

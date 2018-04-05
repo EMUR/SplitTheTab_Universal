@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cellView"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/addImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/splitterName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Splitter"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/decreaseButton"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_left" />
+
+        <TextView
+            android:id="@+id/splitterAmount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="$4"
+            android:textColor="@color/buttonColor"
+            android:textSize="24sp" />
+
+
+        <ImageButton
+            android:id="@+id/increaseButton"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_right" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+

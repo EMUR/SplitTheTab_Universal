@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005691</color>
+    <color name="colorPrimaryDark">#004A7C</color>
+    <color name="colorAccent">#fc624d</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="secondarybackgroundColor">#f2f2f2</color>
+    <color name="textColor">#456173</color>
+    <color name="buttonColor">#11BFAE</color>
+    <color name="clear">#80000000</color>
+    <color name="payment">#4c9153</color>
+    <color name="orangish">#F0A202</color>
+</resources>
