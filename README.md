@@ -4,6 +4,7 @@
 <p align="center">
    <img src="https://i.imgur.com/BbDDg2u.png">
 </p>
+
 ## What is Split the tab?  
 Split the Tab is an iOS & Android mobile application that allows a group of people who dine together to split the cost of
 the meal when one person is paying. The user can use Split the Tab both as a simple calculator, or to request and
@@ -12,9 +13,7 @@ the app sign up with Stripe, which provides APIs to handle peer to peer payments
 
 
 ## Application components:
-```diff
-+ SPLIT VIEW 
-```
+### <center> ➀ SPLIT VIEW </center>
 <p align="center">
     <img src="https://i.imgur.com/DjAI1f8m.png">
 </p>
@@ -38,8 +37,8 @@ This view is presented upon launching the application, which serves as the main 
 
 4. When a valid email is entered into the “splitter lookup view”, we assign the entered splitter to the associated splitter entry, and we mark the entry to be “veriﬁed” This is the Payment request button, which is where the user send payment requests to the splitters he added in the list above. If this button is pressed while having one or more unveriﬁed splitter entries, the user will receive an error message and will be asked to verify all splitter entries.
 In case all splitter entries were veriﬁed, a payment request is sent to the user and to the Stripe database.
-
-### <center> PROFILE VIEW </center>
+ 
+### <center> ➁ PROFILE VIEW </center>
 <p align="center">
     <img src="https://i.imgur.com/dnBif8Rm.png">
 </p>
@@ -56,7 +55,7 @@ the user to other users.<br/><br/>
 3. The tabs at the bottom of the screen allow the user to switch between
 the three lists mentioned in section 2). 
 
-### <center> LOGIN VIEW </center>
+### <center> ➂ LOGIN VIEW </center>
 
 <p align="center">
     <img src="https://i.imgur.com/mGyWFVlm.png">
@@ -66,7 +65,7 @@ In this page, the user gets the chance to sign-in or sign-up for Split The Tab, 
 The second option is when a user needs to sign up, this is a little more elaborate as the user would have to ﬁrst input his/her preferred valid email and password and click on sign up (3). Which would then lead to another view that will ask the user to input further informations that are required in order to enable the payment feature. </br> This includes informations like their full name, phone number, date of birth as well as their
  debit/credit card number for payments charging/deposits. All these details are safely stored in the Stripe database and not on our ﬁrebase database, as only a reference of their Stripe ID will be stored there. If the user entered all the required informations correctly, they will be automatically signed in, and the view will therefore be dismissed.
 
-### <center> PAYMENT VIEW </center>
+### <center> ➃ PAYMENT VIEW </center>
 <p align="center">
     <img src="https://i.imgur.com/bJCDQDIm.png">
 </p>
