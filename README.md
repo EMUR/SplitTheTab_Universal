@@ -1,5 +1,6 @@
-# Split The Tab
-
+<p>
+    
+# Split The Tab:
 Split the Tab is an iOS & Android mobile application that allows a group of people who dine together to split the cost of
 the meal when one person is paying. The user can use Split the Tab both as a simple calculator, or to request and
 receive payments from other users. This is achieved by allowing a user to sign up with Split the Tab, and through
@@ -7,7 +8,7 @@ the app sign up with Stripe, which provides APIs to handle peer to peer payments
 
 ![devices](https://i.imgur.com/BbDDg2u.png)
 
-### Application components:
+# Application components:
 </br>
 
 ------
@@ -77,3 +78,4 @@ If the database handler is updated with a transaction that is partly owed by the
 2. A button to deny or accept paying for that transaction.
 <br/><br/>
 There is no option to pay part of the amount owed. If the user chooses to authorize the transaction, money is taken from the card associated with his or her account on Stripe, and given to the speciﬁed receiver. If the user decides not to pay, the app will remind the user periodically of that debt.
+</p>
